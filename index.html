@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankush Kumar Singh</title>
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <script src="https://kit.fontawesome.com/68e745334a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Header section  -->
+  <div id="header">
+
+
+    <div class="container">
+      <nav>
+        <!-- <div id="name">Ankush Kumar Singh</div>  -->
+        <img src="logo.jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Experience</a></li>
+          <li><a href="#portfolio">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="main-text">
+        <p>web developer</p>
+        <h1>Hi, I am <span>Ankush</span><br>Kumar Singh</h1>
+      </div>
+    </div>
+  </div>
+
+  <!------------- About section----------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col1">
+          <img src="about.png" alt="about">
+        </div>
+        <div class="about-col2">
+          <h1 class="sub-title">About Me </h1>
+          <p>I was born and raised in Chhapra,Bihar. I am entering my final year at the Oriental Institute Of Science
+            And Technology,Bhopal where I am studying Bachlor Of Technology in Computer Science Stream Additionally, I
+            am a Head Coordinator of Tranning And Placement Department of my college.
+          </p>
+          <p>I'm passionate about bringing forward great products; whether that's through business development, UX
+            design, or engineering.</p>
+
+          <div class="aboutme2">
+            <p class="tab active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab" onclick="opentab('Experience')">Experience</p>
+            <p class="tab" onclick="opentab('Education')">Education</p>
+
+          </div>
+          <div class="skill-contents active" id="Skills">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>SQL</li>
+              <li>Web</li>
+            </ul>
+          </div>
+          <div class="skill-contents" id="Experience">
+            <ul>
+              <li><span>Oasis Infobyte</span><br><b> Development Intern</b> <br>March 2023-Present</li>
+              <li><span>CodeClause</span><br><b>Web Development & Designing Intern</b><br>February 2023</li>
+              <li><span>Cisco Networking Academy</span><br><b>Cybersecurity Intern </b><br>Jun 2022 - Aug 2022</li>
+
+            </ul>
+          </div>
+          <div class="skill-contents" id="Education">
+            <ul>
+              <li><span>2020-Present</span><br><b>Oriental Institute Of Science And Technology</b> <br>Computer Science
+                Engineering</li>
+              <li><span>2019-2020</span><br><b>FIITJEE East Delhi</b></li>
+              <li><span>2017-2019</span><br><b>RNP Public School </b><br>Senior Secondary School</li>
+              <li><span>2005-2017</span><br><b>Saraswati Vidya Mandir</b><br>High School</li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------work experience---------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Work Experience </h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Oasis Infobyte</h2>
+          <p>Web Development Intern<br>Mar-2023 - Present</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>CodeClause</h2>
+          <p>Web Development & Designing Intern<br>Feb 2023</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-gear"></i>
+          <h2>Cisco Networking Academy</h2>
+          <p>Cybersecurity Intern<br>Jun 2022 - Aug 2022</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------------Education---------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">Education </h1>
+      <div class="Education-list">
+        <div>
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h2>Oriental Institute Of Science And Technology</h2>
+          <p>Computer Science Engineering<br>2020-2024</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-school"></i>
+          <h2>RNP Public School</h2>
+          <p>Senior Secondary School<br>2017-2019</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-school"></i>
+          <h2>Saraswati Vidya Mandir</h2>
+          <p>High School<br>2005-2017</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------------Contact------------- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> ankushsingh0025@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +918340764945</p>
+          <div class="social-icon">
+
+            <a href="https://www.facebook.com/Ankushsingh025/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/its_ank_/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ankush-kumar-singh-81a5bb23b/"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/ankushsingh25"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="Ankush kumar singh Resume.pdf" download class="btn btn2">download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="Email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+
+
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright <i class="fa-regular fa-copyright"></i> All Rights Reserved. Made with <i class="fa-solid fa-heart"
+          style="color: #ff1f1f;"></i> by Ankush </p>
+    </div>
+  </div>
+  <script>
+    var tablinks = Document.getElementsByClassName("tab");
+    var tabcontents = Document.getElementsByClassName("skill-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active");
+
+
+    }
+  </script>
+  <script>
+    var side = document.getElementById("sidemenu");
+    function openmenu() {
+      side.style.right = "0";
+    }
+    function closemenu() {
+      side.style.right = "-200px";
+    }
+
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxk6MvdGkecZMLBNthrX7Ku_n7TJtx_N69vZJgPrfmrRMZsA8wDnlwtlFws2j7HIFXI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        // .then(response => console.log('Success!', response))
+        .then(response => {
+          msg.innerHTML = "Message Sent Successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 4000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
